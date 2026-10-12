@@ -1,0 +1,18 @@
+2026-10-12 10:33:04 INFO  Utils:112 - [TestNG] Running:
+  D:\AutomationWorkspace\ParaBankWebAutomation\testng.xml
+
+2026-10-12 10:42:59 INFO  Utils:112 - [TestNG] Running:
+  D:\AutomationWorkspace\ParaBankWebAutomation\testng.xml
+
+2026-10-12 10:43:06 INFO  Tc01_RegisterUser:17 - **********Starting test case Register user*********
+2026-10-12 10:43:07 INFO  Tc01_RegisterUser:21 - **********Clicked on Register link*********
+2026-10-12 10:43:07 INFO  Tc01_RegisterUser:22 - **********Providing details*********
+2026-10-12 10:43:12 INFO  Tc01_RegisterUser:45 - **********Validate registration*********
+2026-10-12 10:43:26 ERROR Tc01_RegisterUser:54 - Test failed...........
+2026-10-12 10:43:59 INFO  Utils:112 - [TestNG] Running:
+  D:\AutomationWorkspace\ParaBankWebAutomation\testng.xml
+
+2026-10-12 10:44:03 INFO  Tc01_RegisterUser:17 - **********Starting test case Register user*********
+2026-10-12 10:44:03 INFO  Tc01_RegisterUser:21 - **********Clicked on Register link*********
+2026-10-12 10:44:03 INFO  Tc01_RegisterUser:22 - **********Providing details*********
+2026-10-12 10:44:09 INFO  Tc01_RegisterUser:45 - **********Validate registration*********
