@@ -1,16 +1,15 @@
 package TestCases;
 
-import static org.testng.Assert.fail;
-
 import org.apache.commons.lang3.RandomStringUtils;
 import org.testng.Assert;
 import org.testng.annotations.Test;
-import PageObjects.Utilities;
+
 import PageObjects.RegistrationPage;
+import PageObjects.Utilities;
 import testBase.BaseClass;
 
 public class Tc01_RegisterUser extends BaseClass {
-	@Test
+	@Test(groups= {"Sanity","Master"})
 	public void RegisterNewUser() throws InterruptedException {
 		
 		

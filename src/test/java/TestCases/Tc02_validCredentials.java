@@ -11,12 +11,12 @@ import PageObjects.Utilities;
 public class Tc02_validCredentials extends BaseClass{
 
  	
-	@Test
+	@Test(groups= {"Regression","Master"})
 	
 	public void verify_account_login()
 	{
 		
-		
+		logger.info("**********Starting test case ValidCredentials  user*********");
 		LoginPage lp=new LoginPage(driver);
 		
 		lp.setUsername( Utilities.username);

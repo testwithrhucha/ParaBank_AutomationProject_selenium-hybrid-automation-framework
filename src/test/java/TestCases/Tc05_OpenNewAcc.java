@@ -10,9 +10,10 @@ import testBase.BaseClass;
 
 public class Tc05_OpenNewAcc  extends BaseClass{
 	
-	@Test
+	@Test(groups= {"Regression","Master"})
 	public void newacc()
 	{
+		logger.info("**********Starting test case Create new account validation  *********");
 		LoginPage lp=new LoginPage(driver);
 		
 		lp.setUsername( Utilities.username);

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<test  thread-count="3" name="Test">
+		<parameter name="os" value="Windows"></parameter>
+		<parameter
+			name="browser" value="chrome"></parameter>
+		
+		<groups>
+			<run>
+				  <include name="Sanity" />
+			<!--
+				<include name="Master" />
+				  <include name="Sanity" />
+			<include name="Regression" />  
+				<exclude name="" />-->
+			</run>
+		</groups>
+		<classes>
+			<class name="TestCases.Tc01_RegisterUser" />
+			<class name="TestCases.Tc02_validCredentials" />
+			<class name="TestCases.Tc05_OpenNewAcc" />
+			<!--
+			<class name="TestCases.Tc01_RegisterUser" />
+			<class name="TestCases.Tc02_validCredentials" />
+			<class name="TestCases.Tc03_InvalidCredentials" />
+			<class name="TestCases.Tc04_LogoDisplayValidation" />
+			<class name="TestCases.Tc05_OpenNewAcc" />
+			<class name="TestCases.Tc06_AccOverviewValidation" />
+			<class name="TestCases.Tc07_TransferFunds" />
+			<class name="TestCases.Tc_08ForgotCredentialsValidation" />
+			<class name="TestCases.Tc09_ApplyForLoan" />
+			<class name="TestCases.Tc10_MakePaymentwithValidData" />
+			<class name="TestCases.Tc11_MakePaymentMissingFields" />
+			<class name="TestCases.Tc12_MakePaymentAccNumbermatchValidation" />
+			<class name="TestCases.Tc01_RegisterUserCopy" />
+			<class name="TestCases.Tc13_LoginTestWithDataDriven" />
+-->
+		</classes> 
+		 </test> 
+		 <!--
+	Test -->
+</suite> <!--
+Suite -->

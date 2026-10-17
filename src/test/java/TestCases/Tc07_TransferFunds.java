@@ -1,10 +1,8 @@
 package TestCases;
 
-import org.testng.Assert;
 import org.testng.annotations.Test;
 
 import PageObjects.LoginPage;
-import PageObjects.OpenNewACcPage;
 import PageObjects.TransferFundsPage;
 import PageObjects.Utilities;
 import testBase.BaseClass;

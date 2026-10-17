@@ -50,6 +50,8 @@ public void AccOverview()
 
     // Verify count increased by 1
     Assert.assertEquals(afterCount, beforeCount + 1);
+    
+    ap.isMyAccountPageExists();
 	
 	
 	

@@ -20,7 +20,7 @@ public class BaseClass {
 	public WebDriver driver;
 	public Logger logger;
 	public Properties p;
-	@BeforeClass
+	@BeforeClass(groups = { "Master", "Sanity", "Regression" })
 	@Parameters({"os","browser"})
 	public void setup(String os,String br) throws IOException
 	{
@@ -51,7 +51,7 @@ public class BaseClass {
 		driver.manage().window().maximize();
 	}
 	
-  @AfterClass
+  @AfterClass(groups = { "Master", "Sanity", "Regression" })
 	public void tearDown()
 	{
 		driver.close();
